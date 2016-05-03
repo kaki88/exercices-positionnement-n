@@ -1,0 +1,189 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Bangers');
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One');
+
+html, body
+{
+    width: 100%;
+}
+
+body {
+    background-color: gainsboro;
+  background: url("http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/sayagata-400px.png");
+    width:100%;
+margin:0px;
+}
+
+a {
+    text-decoration: none; 
+    color: white;
+}
+
+.color {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    color: red;
+    padding: 7px;
+    border-radius: 50%;
+    margin-left: 3px;
+}
+
+h1 {
+    font-family: Lobster;
+    font-size: 60px;
+    float: right;
+    margin-right: 10%;
+    text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+
+}
+
+header {
+    background: url("http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/tex2res4.png");
+    height: 150px;
+    z-index: 9;
+     border-bottom: 2px solid #a73f2d;
+}
+
+nav {
+    width: 70%;
+    padding: 15px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    text-transform: uppercase;
+    font-family: Fredoka One;
+    color: white;
+    margin-top: 43px;
+    position: absolute;
+}
+nav ul li {
+    width: 22%;
+    display: inline-block;
+    color: white;
+}
+
+#photo-fond {
+    background-image: url('../images/fusee.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+    margin-top: 40px;
+    z-index: 1;
+    border: 2px solid #a73f2d;
+    border-radius: 8px;
+    width: 80%;
+     margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    text-transform: uppercase;
+     margin-top: 80px;
+    position: ;
+    text-align: left;
+    text-transform: uppercase;
+    width: 50%;
+	background-color:#444444;
+	border-radius:5px;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:30px;
+	font-weight:bold;
+	padding:10px 42px;
+	text-decoration:none;
+    opacity: 0.7;
+    float: right;
+}
+
+.button-1 {
+    margin-top: 180px;
+    position: absolute;
+    text-align: right;
+    text-transform: uppercase;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+	background-color:red;
+	border-radius:5px;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:10px 42px;
+	text-decoration:none;
+    opacity: 0.7;
+}
+.button-1:hover {
+	background-color:#b34332;
+}
+
+#actualites{
+      margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+     text-align: center;
+    background-color: white;
+    border-top: 2px solid #a73f2d;
+    border-bottom: 2px solid #a73f2d;
+    margin-top: 30px;
+}
+
+.actualites-1{
+    background-image: url('../images/exercice-4/inauguration.png');
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 25%;
+    background-position-x: center;
+    background-position-y: 44px;
+}
+
+.actualites-2{
+    background-image: url('../images/exercice-4/cafe.png');
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 25%;
+    background-position-x: center;
+    background-position-y: 44px;
+}
+
+.actualites-3{
+    background-image: url('../images/exercice-4/ordi.png');
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 25%;
+    background-position-x: center;
+    background-position-y: 44px;
+}
+
+li p{
+    margin-top: 50px;
+    padding: 10px;
+}
+
+h4 {
+    text-transform: uppercase;
+}
+
+#la-une {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+     text-align: center;  
+   
+}
+
+h3 {
+    text-transform: uppercase;
+    font-size: 30px;
+}

@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* CSS Document */
+	
+
+html, body
+{
+    width: 100%;
+    margin:0px;
+}
+
+
+body {
+    background-image: url('../images/fusee.jpg');
+    background-size: 100% ;
+    background-repeat: no-repeat;
+}
+nav {
+	width:70%;
+    position: fixed;
+    background-color: cornflowerblue;
+    opacity: 0.75;
+    padding: 15px;
+    left:50%;
+    margin-left:-35%;
+	}
+
+li{
+    display: inline-block;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    width: 19%;
+     text-align: center;
+}
+
+.menu {
+    width: auto;
+    text-align: center;
+}
+
+article {
+    margin-top: 700px;
+    font-size: 30px;
+    padding-left: 15%;
+    padding-right: 15%;
+    background-color: rgb(254, 148, 30);
+    border-top: 10px solid rgb(170, 48, 45);
+    color: white;
+    font-family: Lobster;
+}
+
+span {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    color: green;
+    padding: 7px;
+    border-radius: 5px;
+    font-size: 30px;
+     margin-left: 8px;
+}
+
+ul li:nth-child(5){ 
+ font-family: Lobster;
+    font-size: 40px;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
+
+

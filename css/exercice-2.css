@@ -1,0 +1,82 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-family: 'Lobster';
+	font-size:60px;
+	}
+
+.container {
+    display: inline-block;
+}
+
+.fruits {
+    width: 300px;
+    height: 300px;
+   position: relative;
+    float: left;
+   
+}
+
+.framboises {
+    background-image: url(../images/framboise.jpg);
+    text-align: center;
+    color: white;
+    line-height: 300px;
+}
+
+.oranges {
+    background-image: url(../images/orange.jpg);
+    text-align: center;
+    color: white;
+    line-height: 300px;
+}
+
+.kiwis {
+    background-image: url(../images/kiwi.jpg);
+    text-align: center;
+    color: white;
+    line-height: 300px;
+}
+
+.cerises {
+    background-image: url(../images/cerise.jpg);
+    text-align: center;
+    color: white;
+    line-height: 300px;
+}
+
+.pommes {
+    background-image: url(../images/pomme.jpg);
+    text-align: center;
+    color: white;
+    line-height: 300px;
+}
+
+.fraises {
+    background-image: url(../images/fraise.jpg);
+    text-align: center;
+    color: white;
+    line-height: 300px;
+}
+
+.raisins {
+    background-image: url(../images/raisin.jpg);
+    text-align: center;
+    color: white;
+    line-height: 300px;
+}
+
+.peches {
+    background-image: url(../images/peche.jpg);
+    text-align: center;
+    color: white;
+    line-height: 300px;
+}
+
+.bananes {
+    background-image: url(../images/banane.jpg);
+    text-align: center;
+    color: white;
+    line-height: 300px;
+}

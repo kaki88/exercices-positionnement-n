@@ -1,0 +1,108 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	font-size:25px;
+	}
+	
+.gros_carre {
+    position: relative;
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+}
+	
+.petit_carre {
+	position: absolute;
+    width: 200px;
+   height: 200px;
+	}
+
+.noir {
+    background-color: black;
+    float: left;
+    position: relative;
+}
+
+.jaune {
+    background-color: yellow;
+    float: left;
+    position: relative;
+}
+
+.gris1 {
+    background-color: rgb(176, 176, 176);
+    position: relative;
+    float: left;
+}
+
+.orange {
+    background-color: orange;
+    position: relative;
+    float: left;
+}
+
+.blanc {
+    background-color: white;
+    position: relative;
+    float: left;
+}
+
+.bleu {
+    background-color: blue;
+    position: relative;
+    float: left;
+}
+
+.gris2 {
+    background-color: rgb(85, 83, 84);
+    position: relative;
+    float: left;
+}
+
+.rouge {
+    background-color: red;
+    position: relative;
+    float: left;
+}
+
+.gris3 {
+    background-color: rgb(135, 133, 134);
+    position: relative;
+    float: left;
+}
+
+header {
+    color: white;
+    text-align: right;
+    text-transform: uppercase;
+    font-size: 15px;
+    padding: 10px;
+}
+
+nav {
+     text-transform: capitalize;
+     font-size: 15px;
+     padding: 10px;
+}
+
+article {
+    text-align: center;
+    
+    line-height: 200px;
+}
+
+footer {
+     text-transform: capitalize;
+     font-size: 15px;
+     padding: 10px;
+   position:absolute;
+    right:0;
+    bottom:0;
+    color: white;
+}
+
+
+
+
