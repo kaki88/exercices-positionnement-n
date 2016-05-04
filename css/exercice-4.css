@@ -12,7 +12,9 @@ html, body
 
 body {
     background-color: gainsboro;
-  background: url("http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/sayagata-400px.png");
+  background: url("../images/fond.jpg") no-repeat center center fixed;
+    background-size: cover;
+    background-position: 
     width:100%;
 margin:0px;
 }
@@ -25,46 +27,53 @@ a {
 .color {
     width: 50px;
     height: 50px;
-    background-color: white;
-    color: red;
+    background-color: #2E88E9;
+    color: WHITE;
     padding: 7px;
     border-radius: 50%;
     margin-left: 3px;
 }
 
+
+
+
+
+
 h1 {
     font-family: Lobster;
-    font-size: 60px;
+    font-size: 50px;
     float: right;
-    margin-right: 10%;
-    text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+    text-shadow: 2px 0 0 #2E88E9, -2px 0 0 #2E88E9, 0 2px 0 #2E88E9, 0 -2px 0 #2E88E9, 1px 1px #2E88E9, -1px -1px 0 #2E88E9, 1px -1px 0 #2E88E9, -1px 1px 0 #2E88E9;
 
 }
 
 header {
-    background: url("http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/tex2res4.png");
-    height: 150px;
+    background: url("http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/low_contrast_linen.png");
+    height: 120px;
     z-index: 9;
-     border-bottom: 2px solid #a73f2d;
+     border-bottom: 2px solid #2E88E9;
+    padding-left: 10%;
+     padding-right: 10%;
+    width: 80%;
 }
 
 nav {
     width: 70%;
-    padding: 15px;
     color: white;
     font-size: 20px;
     font-weight: bold;
-    text-align: left;
     text-transform: uppercase;
     font-family: Fredoka One;
     color: white;
     margin-top: 43px;
     position: absolute;
+    margin-left: -2%;
 }
 nav ul li {
-    width: 22%;
     display: inline-block;
     color: white;
+    margin-right: 5%;
+    
 }
 
 #photo-fond {
@@ -75,7 +84,7 @@ nav ul li {
     height: 400px;
     margin-top: 40px;
     z-index: 1;
-    border: 2px solid #a73f2d;
+    border: 2px solid #2E88E9;
     border-radius: 8px;
     width: 80%;
      margin-left: auto;
@@ -126,14 +135,17 @@ h2 {
 }
 
 #actualites{
-      margin-left: auto;
-    margin-right: auto;
+     
     width: 100%;
      text-align: center;
-    background-color: white;
-    border-top: 2px solid #a73f2d;
-    border-bottom: 2px solid #a73f2d;
+    background-color: #FFBE00;
+    border-top: 2px solid #2E88E9;
+    border-bottom: 2px solid #2E88E9;
     margin-top: 30px;
+    
+    margin-bottom: 30px;
+  
+ 
 }
 
 .actualites-1{
@@ -144,6 +156,10 @@ h2 {
     width: 25%;
     background-position-x: center;
     background-position-y: 44px;
+    border-left: 2px solid #2E88E9;
+    border-right: 2px solid #2E88E9;
+       transform: skewX(-5deg);
+    margin-left: -50px;
 }
 
 .actualites-2{
@@ -154,6 +170,8 @@ h2 {
     width: 25%;
     background-position-x: center;
     background-position-y: 44px;
+    border-right: 2px solid #2E88E9;
+         transform: skewX(-5deg);
 }
 
 .actualites-3{
@@ -164,6 +182,8 @@ h2 {
     width: 25%;
     background-position-x: center;
     background-position-y: 44px;
+    border-right: 2px solid #2E88E9;
+         transform: skewX(-5deg);
 }
 
 li p{
@@ -180,10 +200,92 @@ h4 {
     margin-right: auto;
     width: 80%;
      text-align: center;  
-   
+   background-color: #99D1DE;
+    border-top: 2px solid #2E88E9;
+    border-left: 2px solid #2E88E9;
+    border-right: 2px solid #2E88E9;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
 }
+
+article a img{
+  width: 94%; 
+}
+
+
 
 h3 {
     text-transform: uppercase;
     font-size: 30px;
 }
+#la-une p{
+     margin-left: auto;
+    margin-right: auto;
+    width: 80%; 
+}
+article {
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
+}
+
+#archives {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+     text-align: center; 
+     padding-bottom: 2%;
+    margin-bottom: 50px;
+      background-color: #99D1DE;
+    border-bottom: 2px solid #2E88E9;
+    border-left: 2px solid #2E88E9;
+    border-right: 2px solid #2E88E9;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+#archives article {
+     display: inline-block;
+    width: 46%;
+    height: 100%;
+    margin-left: 0.7%;
+     margin-right: 0.7%;
+    margin-top: 20px;
+}
+
+footer {
+    background: url("http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/low_contrast_linen.png");
+    height: 330px;
+    z-index: 9;
+     border-top: 2px solid #2E88E9;
+    padding-left: 10%;
+     padding-right: 10%;
+}
+
+#footer-links ul:nth-child(1) {
+    display: inline-block;
+    width: 25%;
+}
+
+#footer-links ul:nth-child(2) {
+    display: inline-block;
+    width: 25%;
+}
+
+#footer-info {
+    position: absolute;
+     text-align: center; 
+    width: 80%;
+    margin-top: 260px;
+}
+
+#cta{
+    margin-top: 0px; 
+     width: 30%;
+    float: right;
+    margin-right: 10%;
+}
+
+footer .wrapper{
+    width: 80%;
+}
+
